@@ -1,0 +1,163 @@
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f6fefd;
+  color: #f6fefd;
+  font-family: Barlow Condensed;
+}
+.main-section > header {
+  color: black;
+}
+#navbar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 210px;
+  max-width: 300px;
+  align-items: left;
+  height: 90%;
+  max-height: 100%;
+  justify-content: space-between;
+  top: 40;
+  left: 0;
+  background-color: #1f4256;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 25px;
+  border-right: 2px solid;
+  overflow-y: scroll;
+}
+.cont {
+  position: absolute;
+  margin-right: 15px;
+  font-size: 22px;
+}
+.cont:hover {
+  border-bottom: 2px solid;
+}
+#navbar > header {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+.nav-link {
+  line-height: 1.5;
+  padding-left: 6px;
+}
+.nav-link:hover {
+  background-color: #f6fefd;
+  color: #283149;
+  border-radius: 2px 0px 0px 2px;
+  font-weight: bold;
+}
+span {
+  display: block;
+  height: 50px;
+}
+main {
+  margin-left: 220px;
+  margin-top: 50px;
+}
+@media (max-width: 650px) {
+  #navbar {
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    height: 100px;
+    max-height: 100px;
+    overflow-y: scroll;
+    top: 0;
+    text-align: center;
+  }
+  main {
+    margin-top: 140px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 80px;
+  }
+  .contact {
+    min-width: 80px;
+  }
+}
+a:link,
+a:visited {
+  color: #f6fefd;
+  text-decoration: none;
+}
+header {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+pre {
+  border: 3px solid;
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  overflow-x: scroll;
+  border-radius: 8px;
+  color: #283149;
+  background-color: #f6fefd;
+}
+.header-block {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: #283149;
+  width: 100%;
+  height: 49px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.fa-laptop-code {
+  position: absolute;
+  display: inline-block;
+  padding: 4px;
+  margin: 0 auto;
+  font-size: 30px;
+  padding-left: 20px;
+  z-index: -2;
+}
+ul,
+p {
+  background-color: rgba(40, 49, 72);
+  border-radius: 6px;
+}
+.nav-bottom {
+  display: block;
+  height: 10px;
+}
+.main-section > p {
+  padding: 10px;
+}
+.icon:hover {
+  transform: scale(1.2);
+}
+footer {
+  height: 150px;
+  width: 100%;
+  max-height: 150x;
+  background-color: #283149;
+  position: relative;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+  margin: 0 40%;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+fieldset {
+  position: relative;
+  top: 15;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
+}
